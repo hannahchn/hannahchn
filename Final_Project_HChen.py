@@ -21,7 +21,7 @@ st.set_page_config(layout="wide")
 # Setting up Main menu image & texts
 # Open an image & add the title on image
 title_image = Image.open("car_crash.jpg")
-title_font = ImageFont.truetype('hannahchn/Calibri Bold', 75)
+title_font = ImageFont.truetype('Calibri Bold.ttf', 75)
 title_text = """             
               NYC 2015-2017 
                Crash Report
