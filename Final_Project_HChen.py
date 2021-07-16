@@ -21,13 +21,13 @@ st.set_page_config(layout="wide")
 # Setting up Main menu image & texts
 # Open an image & add the title on image
 title_image = Image.open("car_crash.jpg")
-title_font = ImageFont.truetype('Library/Fonts/Times New Roman Bold.ttf', 75)
+#title_font = ImageFont.truetype('Library/Calibri and Cambria/Constantia Bold.ttf', 75)
 title_text = """             
               NYC 2015-2017 
                Crash Report
                (Sample Data) """
 image_editable = ImageDraw.Draw(title_image)
-image_editable.text((50, 200), title_text, (255, 255, 255), font=title_font)
+image_editable.text((50, 200), title_text, (255, 255, 255))
 title_image.save("title.jpg")
 
 MENU_Options = ["Main Page", "Details", "Search By Zipcode"]
