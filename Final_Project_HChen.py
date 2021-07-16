@@ -13,7 +13,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 import pydeck as pdk
-import matplotlib as plt
+import matplotlib.pyplot as plt
 from PIL import Image, ImageFont, ImageDraw
 
 # Set the pages to wide layout
