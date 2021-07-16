@@ -4,7 +4,10 @@ CS602-SN1
 Data: NYC Collisions
 URL: Link to your web application online (see extra credit)
 Description:
-This program ... (a few sentences about your program and the queries and charts)
+This program is designed to show NYC Collision report. 
+The report at a glance will be on the main page along with tables and visualizations such as crashes over hour & month, percentages of cases in each borough.
+The "Details" page will allow users to filter data by year, borough, and injured type with map to take a closer look in specific case conditions.
+The "search by Zipcode" page allow users to look up cases at a specific zipcode location.
 """
 import pandas as pd
 import streamlit as st
