@@ -224,7 +224,7 @@ def main():
     # Center the title image
     col1, col2, col3 = st.beta_columns([1, 3, 1])
     with col2:
-        st.image("title.jpg")
+        st.image("title0.jpg")
     # Use expander as page navigation
     nav = st.beta_expander("Page Navigation")
     nav.text(MENU)
