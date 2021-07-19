@@ -28,7 +28,7 @@ title_text = """
                (Sample Data) """
 image_editable = ImageDraw.Draw(title_image)
 image_editable.text((50, 200), title_text, (255, 255, 255))
-title_image.save("title.jpg")
+title_image.save("title0.jpg")
 
 MENU_Options = ["Main Page", "Details", "Search By Zipcode"]
 MENU = """
