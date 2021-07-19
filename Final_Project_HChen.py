@@ -28,7 +28,7 @@ title_text = """
                (Sample Data) """
 image_editable = ImageDraw.Draw(title_image)
 image_editable.text((50, 200), title_text, (255, 255, 255))
-title_image.save("title0.jpg")
+title_image.save("title.jpg")
 
 MENU_Options = ["Main Page", "Details", "Search By Zipcode"]
 MENU = """
@@ -224,7 +224,7 @@ def main():
     # Center the title image
     col1, col2, col3 = st.beta_columns([1, 3, 1])
     with col2:
-        st.image("title0.jpg")
+        st.image("title.jpg")
     # Use expander as page navigation
     nav = st.beta_expander("Page Navigation")
     nav.text(MENU)
